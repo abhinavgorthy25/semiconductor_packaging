@@ -148,3 +148,22 @@ Insert Images()
 2) Fan out Wafer Level Packaging does this by embedding the die in a molded material and adding Redistribution Layers (RDL) around the die.
 
 3) These RDLs are metal interconnect layers (like BEOL in ICs), which reroute the signals from the tiny pads on the die to larger and more accessible solder balls.
+
+
+### Day - 4 Package Testing 
+
+```
+Insert  Image 
+
+```
+
+## Bathtub Curve Phases
+
+| Phase                  | Description                                                                 | Curve Shape       | Failure Causes                                      | Burn-in Relevance                          |
+|------------------------|-----------------------------------------------------------------------------|-------------------|-----------------------------------------------------|--------------------------------------------|
+| Infant Mortality     | High initial failure rate due to manufacturing defects or weak components. | Decreasing        | Dielectric breakdown, metallization issues, etc.   | **Target phase** – Burn-in removes weak parts |
+| Useful Life          | Low, steady failure rate; components perform reliably.                     | Flat              | Random external factors, minor process variations   | Burn-in-tested components operate here     |
+| Wear -out            | Failure rate increases as devices age and degrade.                         | Increasing        | Electromigration, oxide wear-out, thermal fatigue   | Not addressed by burn-in                   |
+
+
+
