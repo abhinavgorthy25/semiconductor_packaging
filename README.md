@@ -37,6 +37,7 @@ There are different package technologies, and they are listed in  the figure bel
 ![image](https://github.com/user-attachments/assets/28994f76-66ed-493b-92d4-04c25a2ffd8d)
 ![image](https://github.com/user-attachments/assets/c6ac3972-c3d4-4c2c-9c5d-f9dcdfe32628)
 
+
 ## Anatomy of Packages
 
 There are three main packaging concepts 
@@ -78,13 +79,14 @@ e) 2.5D CoWoS (Latest - Chip on Wafer on Substrate): SoC and HBM stacked on sili
 ![image](https://github.com/user-attachments/assets/1c11f517-c524-4e05-8271-26dd7338a94e)
 
 ## Classification of Packaging Technology
-```
-Insert Images()
-```
+![image](https://github.com/user-attachments/assets/f3ee4292-b625-4ed0-ab9a-df21f503fc5f)
+![image](https://github.com/user-attachments/assets/a5dcfb89-5172-4b2a-8d04-6418a35699fa) ![image](https://github.com/user-attachments/assets/bb26c3a2-83ba-403c-acd1-42dc5101094c)
+![image](https://github.com/user-attachments/assets/9719138f-1dd7-4eff-8fc7-94b337d806da)
+
 Difference between CSP and PBGA 
-## Classification of Packaging Technology
-```
-Insert Images()
+![image](https://github.com/user-attachments/assets/7f732e2f-0c37-47a5-b3c8-0675aa529bce)
+
+
 ```
 ## Day - 2 Introduction to Semiconductor Packaging 
 
@@ -94,7 +96,7 @@ Insert Images()
 Insert Images()
 ```
 
-Key Abbreivations 
+Key Abbreviations 
 
 ATMP - Assembly, Testing, Marking and Packaging
 
