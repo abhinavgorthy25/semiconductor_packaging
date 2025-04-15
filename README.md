@@ -80,11 +80,8 @@ e) 2.5D CoWoS (Latest - Chip on Wafer on Substrate): SoC and HBM stacked on sili
 
 ## Classification of Packaging Technology
 ![image](https://github.com/user-attachments/assets/f3ee4292-b625-4ed0-ab9a-df21f503fc5f)
-![image](https://github.com/user-attachments/assets/a5dcfb89-5172-4b2a-8d04-6418a35699fa) ![image](https://github.com/user-attachments/assets/bb26c3a2-83ba-403c-acd1-42dc5101094c)
-![image](https://github.com/user-attachments/assets/9719138f-1dd7-4eff-8fc7-94b337d806da)
+![image](https://github.com/user-attachments/assets/85683b0a-362d-4625-a3d2-d72f3d169dca)
 
-Difference between CSP and PBGA 
-![image](https://github.com/user-attachments/assets/7f732e2f-0c37-47a5-b3c8-0675aa529bce)
 
 
 
@@ -92,9 +89,9 @@ Difference between CSP and PBGA
 
 ### Package Manufacturing - Review of Supply Chain 
 
-```
-Insert Images()
-```
+![image](https://github.com/user-attachments/assets/12e1fad7-a39d-4fb1-bc8d-14b86446f959)
+![image](https://github.com/user-attachments/assets/0380825f-76e0-4fed-a7eb-3812f9617bc7)
+
 
 Key Abbreviations 
 
@@ -114,18 +111,17 @@ OSAT - Outsourced Semiconductor Assembly and Test
 | 6    | **Tape Frame Mounting to Wafer Backside**         | Wafer is mounted onto a tape frame (a ring with adhesive film).                           | Holds wafer in place during dicing. Ensures stability and alignment for laser and blade tools.      |
 | 7    | **Two-Step Wafer Dicing (Laser Grooving + Blade Dicing)** | **Step 1 – Laser Grooving:** Laser weakens streets (spaces between dies). **Step 2 – Blade Dicing:** Diamond blade cuts through the wafer. | Reduces stress and improves accuracy during blade dicing. Precision is critical to avoid chipping and damage.
 
+![image](https://github.com/user-attachments/assets/9193da7b-6955-4de7-9f39-87011a6c50fe)
 
 ### Wire Bonding Packaging Flow 
 
-```
-Insert Images()
-```
+![image](https://github.com/user-attachments/assets/d40268b5-b323-4ffd-b257-db10bc269950)
 
-### Flip - Chip Packaging Flow
 
-```
-Insert Images()
-```
+### Flip-Chip Packaging Flow
+
+![image](https://github.com/user-attachments/assets/b69c0e8f-48fd-432d-b53f-8fc36d40c1c5)
+
 ### Wafer - Level Packaging (Fan out Wafer Level Packaging) - Advanced Packaging 
 
 As semiconductor devices advance (especially in high-end processors, SoCs, and AI chips), the interconnect density increases — meaning more I/Os need to be routed in a very small area. This causes challenges in traditional packaging due to:
@@ -134,11 +130,10 @@ As semiconductor devices advance (especially in high-end processors, SoCs, and A
 
     2) Signal integrity and power delivery issues.
 
-    3) And mechanical stress on solder bumps due to high pin counts.
+    3) Mechanical stress on solder bumps due to high pin counts.
 
-```
-Insert Images()
-```
+![image](https://github.com/user-attachments/assets/985da015-0387-49ed-a9b1-c466f679b456)
+
 ### Why Fanout? 
 
 1) Fan-out refers to the ability to spread out the connections (I/Os) from the chip (die) to a larger area.
@@ -148,20 +143,25 @@ Insert Images()
 3) These RDLs are metal interconnect layers (like BEOL in ICs), which reroute the signals from the tiny pads on the die to larger and more accessible solder balls.
 
 
-### Day - 4 Package Testing 
+## Day - 4 Package Testing 
 
-```
-Insert  Image 
+![image](https://github.com/user-attachments/assets/78dab5e5-5ddb-46a1-86ec-889ca975b286)
+![image](https://github.com/user-attachments/assets/6be89da3-610b-4e3d-bcd5-8abe2f4df22c)
+![image](https://github.com/user-attachments/assets/6f3e7316-2cd7-494a-95a1-b9034866f163)
 
-```
 
-## Bathtub Curve Phases
+### Bathtub Curve Phases
 
 | Phase                  | Description                                                                 | Curve Shape       | Failure Causes                                      | Burn-in Relevance                          |
 |------------------------|-----------------------------------------------------------------------------|-------------------|-----------------------------------------------------|--------------------------------------------|
 | Infant Mortality     | High initial failure rate due to manufacturing defects or weak components. | Decreasing        | Dielectric breakdown, metallization issues, etc.   | **Target phase** – Burn-in removes weak parts |
 | Useful Life          | Low, steady failure rate; components perform reliably.                     | Flat              | Random external factors, minor process variations   | Burn-in-tested components operate here     |
 | Wear -out            | Failure rate increases as devices age and degrade.                         | Increasing        | Electromigration, oxide wear-out, thermal fatigue   | Not addressed by burn-in                   |
+
+![image](https://github.com/user-attachments/assets/2c4b5b73-ea58-41d6-976d-b7ccce002cd9)
+![image](https://github.com/user-attachments/assets/39e9244e-e677-4544-b096-13bf26822902)
+![image](https://github.com/user-attachments/assets/17427585-b6cd-45b7-9d21-6f3118fa2ad9)
+
 
 
 
