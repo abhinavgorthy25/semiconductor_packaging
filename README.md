@@ -88,6 +88,63 @@ Difference between CSP and PBGA
 ```
 Insert Images()
 ```
-
-
 ## Day - 2 Introduction to Semiconductor Packaging 
+
+### Package Manufacturing - Review of Supply Chain 
+
+```
+Insert Images()
+```
+
+Key Abbreivations 
+
+ATMP - Assembly, Testing, Marking and Packaging
+
+OSAT - Outsourced Semiconductor Assembly and Test 
+
+## Wafer Preparation and Dicing Process
+
+| Step | Process                                           | Purpose                                                                                   | Importance                                                                                          |
+|------|---------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 1    | **Wafer Preparation Area (ISO Class 7)**          | This cleanroom environment ensures a low level of airborne particles (Class 7 = <10,000 particles/ft³). | Prevents contamination during wafer handling and processing.                                       |
+| 2    | **Incoming Wafer Carrier**                        | A cassette or FOUP (Front Opening Unified Pod) holds multiple silicon wafers.             | Used to safely transport and store wafers before processing.                                        |
+| 3    | **Wafer Inspection**                              | Optical or automated inspection tools scan the wafer.                                     | Detect surface defects, contamination, and pattern misalignments before further processing.         |
+| 4    | **Wafer Front Tape Lamination**                   | Protective tape is laminated onto the top (front) surface of the wafer.                   | Protects circuits from contamination and physical damage. Holds diced die in place after the wafer is cut. |
+| 5    | **Wafer Backside Grinding**                       | The backside of the wafer is thinned using a grinding wheel.                              | Reduces wafer thickness for improved thermal and electrical performance. Prepares the wafer for packaging. |
+| 6    | **Tape Frame Mounting to Wafer Backside**         | Wafer is mounted onto a tape frame (a ring with adhesive film).                           | Holds wafer in place during dicing. Ensures stability and alignment for laser and blade tools.      |
+| 7    | **Two-Step Wafer Dicing (Laser Grooving + Blade Dicing)** | **Step 1 – Laser Grooving:** Laser weakens streets (spaces between dies). **Step 2 – Blade Dicing:** Diamond blade cuts through the wafer. | Reduces stress and improves accuracy during blade dicing. Precision is critical to avoid chipping and damage. |
+
+end 
+
+
+### Wire Bonding Packaging Flow 
+
+```
+Insert Images()
+```
+
+### Flip - Chip Packaging Flow
+
+```
+Insert Images()
+```
+### Wafer - Level Packaging (Fan out Wafer Level Packaging) - Advanced Packaging 
+
+As semiconductor devices advance (especially in high-end processors, SoCs, and AI chips), the interconnect density increases — meaning more I/Os need to be routed in a very small area. This causes challenges in traditional packaging due to:
+
+ 1) Limited space for routing signals out of the die (called fan-out).
+
+    2) Signal integrity and power delivery issues.
+
+    3) And mechanical stress on solder bumps due to high pin counts.
+
+```
+Insert Images()
+```
+### Why Fanout? 
+
+1) Fan-out refers to the ability to spread out the connections (I/Os) from the chip (die) to a larger area.
+
+2) Fan out Wafer Level Packaging does this by embedding the die in a molded material and adding Redistribution Layers (RDL) around the die.
+
+3) These RDLs are metal interconnect layers (like BEOL in ICs), which reroute the signals from the tiny pads on the die to larger and more accessible solder balls.
