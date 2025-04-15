@@ -4,11 +4,12 @@
 In this repository, we will look into the introduction of semiconductor packaging including various types based on applications. We will also explore the fabrication and manufacturing processes of these types, as well as reliability testing on the packages. Furthermore, we will simulate packaging and testing utilizing Ansys Electronics Tools. 
 
 
-## Day - 1 Introduction to Semiconductor Packaging 
+## Day 1: Introduction to Semiconductor Packaging 
 
-The process of fabrication of semiconductors will take place in a Foundry which is a huge factory with high end equipments and have clean rooms of classes 5/7/10 to 10,000 with protected environment. These are usually maintained by companies and Intel, TSMC, Samsung and Integrated Device manufacturers (IDMs) like Micron, SK Hynix. These have 12 -inch Si wafers that are diced and it is packaged and sent it to different suppliers.
+The fabrication of semiconductors occurs in a Foundry, a large-scale facility equipped with advanced technology and maintained in clean rooms of classes 5, 7, 10, and 10,000 with controlled environments. These Foundries are typically maintained by companies such as Intel, TSMC, Samsung, and Integrated Device Manufacturers (IDMs) like Micron and SK Hynix. These Foundries utilize 12-inch silicon wafers that are diced and packaged for distribution to various suppliers.
 
-The main purpose of packaging is to prepare a bare silicon for the real world whhere it helps in two main ascepts, the protection of semiconductor devices on a die and connection of die to other dies. 
+The primary purpose of packaging is to prepare a bare silicon wafer for practical applications, serving two main functions: protecting semiconductor devices on a die and connecting dies to other dies.
+
 
 Functionality (Wafer - Die) -> Personality (After Packaging)
 
@@ -16,7 +17,7 @@ Functionality (Wafer - Die) -> Personality (After Packaging)
 Insert Image 
 ```
 ### How to choose the right package for the application 
-
+The initial layer, known as the system board, comprises a printed circuit board (PCB) that serves as a connector for various components and circuits, facilitating the assembly of the entire system. Subsequently, a carrier layer is employed to accommodate the silicon die.
 ```
 Insert Image 
 ```
