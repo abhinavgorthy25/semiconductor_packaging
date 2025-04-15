@@ -87,7 +87,7 @@ Difference between CSP and PBGA
 ![image](https://github.com/user-attachments/assets/7f732e2f-0c37-47a5-b3c8-0675aa529bce)
 
 
-```
+
 ## Day - 2 Introduction to Semiconductor Packaging 
 
 ### Package Manufacturing - Review of Supply Chain 
@@ -112,9 +112,7 @@ OSAT - Outsourced Semiconductor Assembly and Test
 | 4    | **Wafer Front Tape Lamination**                   | Protective tape is laminated onto the top (front) surface of the wafer.                   | Protects circuits from contamination and physical damage. Holds diced die in place after the wafer is cut. |
 | 5    | **Wafer Backside Grinding**                       | The backside of the wafer is thinned using a grinding wheel.                              | Reduces wafer thickness for improved thermal and electrical performance. Prepares the wafer for packaging. |
 | 6    | **Tape Frame Mounting to Wafer Backside**         | Wafer is mounted onto a tape frame (a ring with adhesive film).                           | Holds wafer in place during dicing. Ensures stability and alignment for laser and blade tools.      |
-| 7    | **Two-Step Wafer Dicing (Laser Grooving + Blade Dicing)** | **Step 1 – Laser Grooving:** Laser weakens streets (spaces between dies). **Step 2 – Blade Dicing:** Diamond blade cuts through the wafer. | Reduces stress and improves accuracy during blade dicing. Precision is critical to avoid chipping and damage. |
-
-end 
+| 7    | **Two-Step Wafer Dicing (Laser Grooving + Blade Dicing)** | **Step 1 – Laser Grooving:** Laser weakens streets (spaces between dies). **Step 2 – Blade Dicing:** Diamond blade cuts through the wafer. | Reduces stress and improves accuracy during blade dicing. Precision is critical to avoid chipping and damage.
 
 
 ### Wire Bonding Packaging Flow 
