@@ -13,16 +13,14 @@ The primary purpose of packaging is to prepare a bare silicon wafer for practica
 
 Functionality (Wafer - Die) -> Personality (After Packaging)
 
-```
-Insert Image 
-```
+![image](https://github.com/user-attachments/assets/4d447997-8ff4-4cc1-9381-ad81251a905c)
+
 ### How to choose the right package for the application 
 The initial layer, known as the system board, comprises a printed circuit board (PCB) that serves as a connector for various components and circuits, facilitating the assembly of the entire system. Subsequently, a carrier layer is employed to accommodate the silicon die.
-```
-Insert Image 
-```
+![image](https://github.com/user-attachments/assets/7be674ee-eb9e-4556-a51d-52fcc71d372b)
+
 ### Packaging Connections and different types 
-The first or bottom layer is a system board with Printed Circuit Board (PCB) which connects to other parts or circuits to build an entire system. Next, there is another layer called carrier on which silicon die is placed. 
+The first or bottom layer is a system board with a Printed Circuit Board (PCB) which connects to other parts or circuits to build an entire system. Next, there is another layer called a carrier on which the silicon die is placed. 
 
 #### Types of Carriers
 
@@ -34,10 +32,10 @@ Substrate: It is like a foundation where all the electrical and mechanical conne
 
 Interposer: Intermediate layer often made with silicon/organic materials that facilitates connections between chips using TSV (Through Silicon Vias) and TLVs (Through Laminate Vias).
 
-There are different package technology and they are listed the figure below.
-```
-Insert Images()
-```
+There are different package technologies, and they are listed in  the figure below.
+
+![image](https://github.com/user-attachments/assets/28994f76-66ed-493b-92d4-04c25a2ffd8d)
+![image](https://github.com/user-attachments/assets/c6ac3972-c3d4-4c2c-9c5d-f9dcdfe32628)
 
 ## Anatomy of Packages
 
@@ -76,9 +74,9 @@ c) 2.3D: Dies mounted on an organic interposer for better routing.
 d) 2.5D: Dies mounted on a silicon interposer for high-density interconnects.
 
 e) 2.5D CoWoS (Latest - Chip on Wafer on Substrate): SoC and HBM stacked on silicon interposer over a substrate for high bandwidth and integration.
-```
-Insert Images()
-```
+
+![image](https://github.com/user-attachments/assets/1c11f517-c524-4e05-8271-26dd7338a94e)
+
 ## Classification of Packaging Technology
 ```
 Insert Images()
