@@ -190,11 +190,15 @@ Locate the “Validate” button at the top of the screen and ensure that each l
 Merge the meshing for underfill: Click on Solids -> Underfill and click on Merge Meshing and click on Analyse all to ensure overall meshing. 
 
 After successful meshing, try to select the desired area and select plot fields and temperature to see the temperature plots. 
+
 <img width="735" alt="Screenshot 2025-04-17 at 11 34 23 AM" src="https://github.com/user-attachments/assets/f5270f56-26df-4652-90f5-ce69fd596623" />
+
 Enable Specify Name, Specify Folder, Plot on Surface only and click "DONE"
-<img width="735" alt="Screenshot 2025-04-17 at 11 35 36 AM" src="https://github.com/user-attachments/assets/2c711897-d19a-4205-a9be-ce260e0d7648" />
-Now, you will seeing the thermal response of the entire FCGBA package: 
+<img width="735" alt="Screenshot 2025-04-17 at 11 35 36 AM" src="https://github.com/user-attachments/assets/2c711897-d19a-4205-a9be-ce260e0d7648" />\
+
+Now, you will see the thermal response of the entire FCGBA package: 
 <img width="735" alt="Screenshot 2025-04-17 at 11 37 14 AM" src="https://github.com/user-attachments/assets/62413682-0623-452a-9b23-1af59358f4f3" />
+
 By employing IcePak tools from ANSYS Desktop, we can conduct a comprehensive thermal simulation analysis. You can also select different packages and perform the basic thermal simulation. 
 
 
