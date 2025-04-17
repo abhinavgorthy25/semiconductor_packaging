@@ -4,7 +4,7 @@
 In this repository, we will look into the introduction of semiconductor packaging including various types based on applications. We will also explore the fabrication and manufacturing processes of these types, as well as reliability testing on the packages. Furthermore, we will simulate packaging and testing utilizing Ansys Electronics Tools. 
 
 
-## Day 1: Introduction to Semiconductor Packaging 
+## Day 1: Packaging Evolution: From Basics to 3D Integration
 
 The fabrication of semiconductors occurs in a Foundry, a large-scale facility equipped with advanced technology and maintained in clean rooms of classes 5, 7, 10, and 10,000 with controlled environments. These Foundries are typically maintained by companies such as Intel, TSMC, Samsung, and Integrated Device Manufacturers (IDMs) like Micron and SK Hynix. These Foundries utilize 12-inch silicon wafers that are diced and packaged for distribution to various suppliers.
 
@@ -85,7 +85,7 @@ e) 2.5D CoWoS (Latest - Chip on Wafer on Substrate): SoC and HBM stacked on sili
 
 
 
-## Day - 2 Introduction to Semiconductor Packaging 
+## Day - 2 From Wafer to Package: Assembly and Manufacturing Essentials 
 
 ### Package Manufacturing - Review of Supply Chain 
 
@@ -143,7 +143,56 @@ As semiconductor devices advance (especially in high-end processors, SoCs, and A
 3) These RDLs are metal interconnect layers (like BEOL in ICs), which reroute the signals from the tiny pads on the die to larger and more accessible solder balls.
 
 
-## Day - 4 Package Testing 
+### Day - 3 Thermal Simulation of Semiconductor Packages with ANSYS.
+
+### Getting Started with ANSYS Electronics Desktop 
+
+Use this link to Download ANSYS Electronics Desktop:
+```
+https://www.ansys.com/academic/students/ansys-electronics-desktop-student
+
+```
+Select the desired package: 
+![Screenshot 2025-04-16 at 5 20 59 PM](https://github.com/user-attachments/assets/15c9cf4e-24fd-4d47-94e4-28af63bc8d17)
+
+### Properties of Flip Chip Ball Grid Arrays: 
+
+![Screenshot 2025-04-16 at 5 23 41 PM](https://github.com/user-attachments/assets/cc90c14f-dd1d-441d-baca-6d51937d207e)
+
+ ### 3D Model of Flip Chip BGA: 
+![Screenshot 2025-04-16 at 5 34 38 PM](https://github.com/user-attachments/assets/75f624ae-63ac-435d-b12c-ec9712561f61)
+
+### Thermal Model:  
+The boundary conditions are set to view a proper thermal analysis. In the thermal model, the total power is set to 1 W. 
+
+![Screenshot 2025-04-16 at 5 39 45 PM](https://github.com/user-attachments/assets/a0979508-01a8-476c-8a7d-1862944d2f82)
+![Screenshot 2025-04-16 at 5 42 40 PM](https://github.com/user-attachments/assets/4f9081b6-fabf-441b-8a8b-6361a2b372e2)
+In the source, Ambient temperature is selected: 
+![Screenshot 2025-04-16 at 5 43 36 PM](https://github.com/user-attachments/assets/67f34d8a-b38c-4f5b-af09-386348602cc3)
+### Monitor: 
+To view the analysis, a point monitor is selected for all the layers and temperature is selected for all. 
+
+![Screenshot 2025-04-16 at 5 45 27 PM](https://github.com/user-attachments/assets/58fea2ec-c44a-47cb-8c4b-fe033b18ef1d)
+![Screenshot 2025-04-16 at 5 46 04 PM](https://github.com/user-attachments/assets/b62b3171-ad1a-4734-a1a3-f0c1ddf60c1c)
+
+Make sure every simulation mentioned in the right column is completed and move on to the meshing by clicking on “Meshing” and “Generate Mesh”. Now, a mesh is generated. 
+
+![Screenshot 2025-04-16 at 5 49 08 PM](https://github.com/user-attachments/assets/bf42c290-ec82-482d-aaa5-581f949a472a)
+
+Now, in Analysis , right click on it to find Solve Setup and click OK 
+![Screenshot 2025-04-16 at 5 56 00 PM](https://github.com/user-attachments/assets/7531199a-03c5-4aa2-8946-2995b22802d6)
+
+### Validation: 
+Locate the “Validate” button at the top of the screen and ensure that each layer of analysis is marked as “checked.” 
+![Screenshot 2025-04-16 at 5 56 29 PM](https://github.com/user-attachments/assets/1b347701-4242-4f6a-b7d3-947d0d8a46cf)
+![Screenshot 2025-04-16 at 7 00 43 PM](https://github.com/user-attachments/assets/6c9e0ba3-f29c-44e3-8e12-59e3b9563e7a)
+
+Merge the meshing for underfill: Click on Solids -> Underfill and click on Merge Meshing and click on Analyse all to ensure overall meshing. 
+
+
+
+
+## Day - 4 Ensuring Package Reliability: Testing and Performance Validation
 
 ![image](https://github.com/user-attachments/assets/78dab5e5-5ddb-46a1-86ec-889ca975b286)
 ![image](https://github.com/user-attachments/assets/6be89da3-610b-4e3d-bcd5-8abe2f4df22c)
