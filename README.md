@@ -104,7 +104,7 @@ OSAT - Outsourced Semiconductor Assembly and Test
 | Step | Process                                           | Purpose                                                                                   | Importance                                                                                          |
 |------|---------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 1    | **Wafer Preparation Area (ISO Class 7)**          | This cleanroom environment ensures a low level of airborne particles (Class 7 = <10,000 particles/ft³). | Prevents contamination during wafer handling and processing.                                       |
-| 2    | **Incoming Wafer Carrier**                        | A cassette or FOUP (Front Opening Unified Pod) holds multiple silicon wafers.             | Used to safely transport and store wafers before processing.                                        |
+| 2    | **Incoming Wafer Carrier**                        | A cassette or FOUP (Front Opening Unified Pod) holds multiple silicon wafers.             | Used to transport and store wafers before processing safely.                                        |
 | 3    | **Wafer Inspection**                              | Optical or automated inspection tools scan the wafer.                                     | Detect surface defects, contamination, and pattern misalignments before further processing.         |
 | 4    | **Wafer Front Tape Lamination**                   | Protective tape is laminated onto the top (front) surface of the wafer.                   | Protects circuits from contamination and physical damage. Holds diced die in place after the wafer is cut. |
 | 5    | **Wafer Backside Grinding**                       | The backside of the wafer is thinned using a grinding wheel.                              | Reduces wafer thickness for improved thermal and electrical performance. Prepares the wafer for packaging. |
@@ -152,7 +152,7 @@ Use this link to Download ANSYS Electronics Desktop:
 https://www.ansys.com/academic/students/ansys-electronics-desktop-student
 
 ```
-Select the desired package: 
+Select the desired package: Go to IcePak -> ToolKit -> Geometry -> Packages -> Select the desrired package 
 ![Screenshot 2025-04-16 at 5 20 59 PM](https://github.com/user-attachments/assets/15c9cf4e-24fd-4d47-94e4-28af63bc8d17)
 
 ### Properties of Flip Chip Ball Grid Arrays: 
@@ -189,7 +189,13 @@ Locate the “Validate” button at the top of the screen and ensure that each l
 
 Merge the meshing for underfill: Click on Solids -> Underfill and click on Merge Meshing and click on Analyse all to ensure overall meshing. 
 
-
+After successful meshing, try to select the desired area and select plot fields and temperature to see the temperature plots. 
+<img width="735" alt="Screenshot 2025-04-17 at 11 34 23 AM" src="https://github.com/user-attachments/assets/f5270f56-26df-4652-90f5-ce69fd596623" />
+Enable Specify Name, Specify Folder, Plot on Surface only and click "DONE"
+<img width="735" alt="Screenshot 2025-04-17 at 11 35 36 AM" src="https://github.com/user-attachments/assets/2c711897-d19a-4205-a9be-ce260e0d7648" />
+Now, you will seeing the thermal response of the entire FCGBA package: 
+<img width="735" alt="Screenshot 2025-04-17 at 11 37 14 AM" src="https://github.com/user-attachments/assets/62413682-0623-452a-9b23-1af59358f4f3" />
+By employing IcePak tools from ANSYS Desktop, we can conduct a comprehensive thermal simulation analysis. You can also select different packages and perform the basic thermal simulation. 
 
 
 ## Day - 4 Ensuring Package Reliability: Testing and Performance Validation
