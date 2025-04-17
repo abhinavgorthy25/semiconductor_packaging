@@ -223,5 +223,6 @@ By employing IcePak tools from ANSYS Desktop, we can conduct a comprehensive the
 
 ## Day -5 Lab - 2 Creating the semiconductor package cross-section in Ansys AEDT
 
+<img width="1000" alt="Screenshot 2025-04-17 at 12 01 13 PM" src="https://github.com/user-attachments/assets/d6cf7ce4-f363-4ef8-87db-f6478b18d344" />
 
 
