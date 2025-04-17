@@ -191,13 +191,13 @@ Merge the meshing for underfill: Click on Solids -> Underfill and click on Merge
 
 After successful meshing, try to select the desired area and select plot fields and temperature to see the temperature plots. 
 
-<img width="735" alt="Screenshot 2025-04-17 at 11 34 23 AM" src="https://github.com/user-attachments/assets/f5270f56-26df-4652-90f5-ce69fd596623" />
+<img width="1000" alt="Screenshot 2025-04-17 at 11 34 23 AM" src="https://github.com/user-attachments/assets/f5270f56-26df-4652-90f5-ce69fd596623" />
 
 Enable Specify Name, Specify Folder, Plot on Surface only and click "DONE"
-<img width="735" alt="Screenshot 2025-04-17 at 11 35 36 AM" src="https://github.com/user-attachments/assets/2c711897-d19a-4205-a9be-ce260e0d7648" />\
+<img width="1000" alt="Screenshot 2025-04-17 at 11 35 36 AM" src="https://github.com/user-attachments/assets/2c711897-d19a-4205-a9be-ce260e0d7648" />\
 
 Now, you will see the thermal response of the entire FCGBA package: 
-<img width="735" alt="Screenshot 2025-04-17 at 11 37 14 AM" src="https://github.com/user-attachments/assets/62413682-0623-452a-9b23-1af59358f4f3" />
+<img width="1000" alt="Screenshot 2025-04-17 at 11 37 14 AM" src="https://github.com/user-attachments/assets/62413682-0623-452a-9b23-1af59358f4f3" />
 
 By employing IcePak tools from ANSYS Desktop, we can conduct a comprehensive thermal simulation analysis. You can also select different packages and perform the basic thermal simulation. 
 
@@ -221,8 +221,54 @@ By employing IcePak tools from ANSYS Desktop, we can conduct a comprehensive the
 ![image](https://github.com/user-attachments/assets/39e9244e-e677-4544-b096-13bf26822902)
 ![image](https://github.com/user-attachments/assets/17427585-b6cd-45b7-9d21-6f3118fa2ad9)
 
-## Day -5 Lab - 2 Creating the semiconductor package cross-section in Ansys AEDT
+## Day - 5 Lab - 2 Creating the semiconductor package cross-section in Ansys AEDT
 
 <img width="1000" alt="Screenshot 2025-04-17 at 12 01 13 PM" src="https://github.com/user-attachments/assets/d6cf7ce4-f363-4ef8-87db-f6478b18d344" />
+
+### Task:1 Creating a Die: 3 x 3mm , Thickness: 0.2mm 
+
+![Screenshot 2025-04-17 at 3 47 26 PM](https://github.com/user-attachments/assets/500084ca-bb94-4cb7-9c78-d2164fff1350)
+
+Thicken the sheet by selecting Rectangle and click on Modeler -> Surface -> Thicken sheet -> Desired Thickness (Here it is 0.2 mm) 
+
+![Screenshot 2025-04-17 at 3 47 42 PM](https://github.com/user-attachments/assets/c0de63dd-460d-419d-a807-a158a8958c66)
+
+### Task:2  Creating a Substrate, 
+Construct a second rectangle  (Area: 3 x 3mm, Thickness: 0.2mm) for the substrate and rename the previous one to “Die.” and the present one to "Substrate" .Subsequently, modify the material properties to Silicon for "Die". 
+
+![Screenshot 2025-04-17 at 5 21 12 PM](https://github.com/user-attachments/assets/e665a446-2d6a-4fbb-8b3d-7df2910ceb1b)
+Change the substrate material to Epoxy: 
+
+![Screenshot 2025-04-17 at 5 42 07 PM](https://github.com/user-attachments/assets/63a9e7ab-0b38-49e1-86f1-b5758338e5f1)
+### Task 3: Creating Die Attach and Bond pads:
+
+Similarly, construct the Die attach and bond pads by definition dimensions and materials. 
+
+![Screenshot 2025-04-17 at 5 48 08 PM](https://github.com/user-attachments/assets/90b6ca7c-923c-4919-931d-f50ab2bd2c2f)
+![Screenshot 2025-04-17 at 6 06 02 PM](https://github.com/user-attachments/assets/a8c0e8c1-aa09-44d6-8e57-86c175ec0a47)
+
+### Task 4: Wirebonding 
+
+Draw a wire bond and change its properties as required. (Here it is set to default) 
+
+![Screenshot 2025-04-17 at 6 06 50 PM](https://github.com/user-attachments/assets/0f1a016b-e28c-4ab9-818e-1c939528cd7f)
+
+In wire bonding, the metal must be ductile to ensure reliable connections. Consequently, gold is the most commonly used material in wire bonding. 
+
+### Task 5: Encapsulating with Mold Compound. 
+
+![Screenshot 2025-04-17 at 6 51 02 PM](https://github.com/user-attachments/assets/fc4c41ea-9c65-40fd-a686-c90ba8e7dcbf)
+
+Laser marking is performed on the Mold component, necessitating adequate headroom to ensure the integrity of wirebonds. 
+
+![Screenshot 2025-04-17 at 6 57 10 PM](https://github.com/user-attachments/assets/b4b39a2c-32ff-4b3f-aa4b-84cfc9822482)
+
+The subsequent procedure involves attaching the solder balls to the substrate. This process elucidated the methodology for constructing a package and subsequently simulating its thermal behavior. 
+
+## Acknowledgements
+
+I extend my sincere gratitude to Mr. Kunal Ghosh for providing this opportunity and to the team at IIT Gandhinagar for sharing their expertise. 
+
+
 
 
