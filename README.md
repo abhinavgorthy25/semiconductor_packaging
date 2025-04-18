@@ -194,7 +194,7 @@ After successful meshing, try to select the desired area and select plot fields 
 <img width="1000" alt="Screenshot 2025-04-17 at 11 34 23 AM" src="https://github.com/user-attachments/assets/f5270f56-26df-4652-90f5-ce69fd596623" />
 
 Enable Specify Name, Specify Folder, Plot on Surface only and click "DONE"
-<img width="1000" alt="Screenshot 2025-04-17 at 11 35 36 AM" src="https://github.com/user-attachments/assets/2c711897-d19a-4205-a9be-ce260e0d7648" />\
+<img width="1000" alt="Screenshot 2025-04-17 at 11 35 36 AM" src="https://github.com/user-attachments/assets/2c711897-d19a-4205-a9be-ce260e0d7648" />
 
 Now, you will see the thermal response of the entire FCGBA package: 
 <img width="1000" alt="Screenshot 2025-04-17 at 11 37 14 AM" src="https://github.com/user-attachments/assets/62413682-0623-452a-9b23-1af59358f4f3" />
