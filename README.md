@@ -4,7 +4,7 @@
 In this repository, we will look into the introduction of semiconductor packaging including various types based on applications. We will also explore the fabrication and manufacturing processes of these types, as well as reliability testing on the packages. Furthermore, we will simulate packaging and testing utilizing Ansys Electronics Tools. 
 
 
-## Day 1: Packaging Evolution: From Basics to 3D Integration
+## 1: Packaging Evolution: From Basics to 3D Integration
 
 The fabrication of semiconductors occurs in a Foundry, a large-scale facility equipped with advanced technology and maintained in clean rooms of classes 5, 7, 10, and 10,000 with controlled environments. These Foundries are typically maintained by companies such as Intel, TSMC, Samsung, and Integrated Device Manufacturers (IDMs) like Micron and SK Hynix. These Foundries utilize 12-inch silicon wafers that are diced and packaged for distribution to various suppliers.
 
@@ -85,7 +85,7 @@ e) 2.5D CoWoS (Latest - Chip on Wafer on Substrate): SoC and HBM stacked on sili
 
 
 
-## Day - 2 From Wafer to Package: Assembly and Manufacturing Essentials 
+##  2 From Wafer to Package: Assembly and Manufacturing Essentials 
 
 ### Package Manufacturing - Review of Supply Chain 
 
@@ -143,7 +143,7 @@ As semiconductor devices advance (especially in high-end processors, SoCs, and A
 3) These RDLs are metal interconnect layers (like BEOL in ICs), which reroute the signals from the tiny pads on the die to larger and more accessible solder balls.
 
 
-### Day - 3 Thermal Simulation of Semiconductor Packages with ANSYS.
+###  3 Thermal Simulation of Semiconductor Packages with ANSYS.
 
 ### Getting Started with ANSYS Electronics Desktop 
 
@@ -202,7 +202,7 @@ Now, you will see the thermal response of the entire FCGBA package:
 By employing IcePak tools from ANSYS Desktop, we can conduct a comprehensive thermal simulation analysis. You can also select different packages and perform the basic thermal simulation. 
 
 
-## Day - 4 Ensuring Package Reliability: Testing and Performance Validation
+##  4 Ensuring Package Reliability: Testing and Performance Validation
 
 ![image](https://github.com/user-attachments/assets/78dab5e5-5ddb-46a1-86ec-889ca975b286)
 ![image](https://github.com/user-attachments/assets/6be89da3-610b-4e3d-bcd5-8abe2f4df22c)
@@ -221,7 +221,7 @@ By employing IcePak tools from ANSYS Desktop, we can conduct a comprehensive the
 ![image](https://github.com/user-attachments/assets/39e9244e-e677-4544-b096-13bf26822902)
 ![image](https://github.com/user-attachments/assets/17427585-b6cd-45b7-9d21-6f3118fa2ad9)
 
-## Day - 5 Lab - 2 Creating the semiconductor package cross-section in Ansys AEDT
+##  5 Lab - 2 Creating the semiconductor package cross-section in Ansys AEDT
 
 <img width="1000" alt="Screenshot 2025-04-17 at 12 01 13 PM" src="https://github.com/user-attachments/assets/d6cf7ce4-f363-4ef8-87db-f6478b18d344" />
 
