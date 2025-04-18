@@ -259,11 +259,11 @@ In wire bonding, the metal must be ductile to ensure reliable connections. Conse
 
 ![Screenshot 2025-04-17 at 6 51 02 PM](https://github.com/user-attachments/assets/fc4c41ea-9c65-40fd-a686-c90ba8e7dcbf)
 
-Laser marking is performed on the Mold component, necessitating adequate headroom to ensure the integrity of wirebonds. 
+Laser marking is performed on the Mold component to ensure adequate headroom to ensure the integrity of wirebonds. 
 
 ![Screenshot 2025-04-17 at 6 57 10 PM](https://github.com/user-attachments/assets/b4b39a2c-32ff-4b3f-aa4b-84cfc9822482)
 
-The subsequent procedure involves attaching the solder balls to the substrate. This process elucidated the methodology for constructing a package and subsequently simulating its thermal behavior. 
+The subsequent procedure involves attaching the solder balls to the substrate. This methodology is used for constructing a package and subsequently simulating its thermal behavior. 
 
 ## Acknowledgements
 
