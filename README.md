@@ -225,7 +225,7 @@ By employing IcePak tools from ANSYS Desktop, we can conduct a comprehensive the
 
 <img width="1000" alt="Screenshot 2025-04-17 at 12 01 13 PM" src="https://github.com/user-attachments/assets/d6cf7ce4-f363-4ef8-87db-f6478b18d344" />
 
-### Task:1 Creating a Die: 3 x 3mm , Thickness: 0.2mm 
+### Task 1: Creating a Die: 3 x 3mm , Thickness: 0.2mm 
 
 ![Screenshot 2025-04-17 at 3 47 26 PM](https://github.com/user-attachments/assets/500084ca-bb94-4cb7-9c78-d2164fff1350)
 
@@ -233,7 +233,7 @@ Thicken the sheet by selecting Rectangle and click on Modeler -> Surface -> Thic
 
 ![Screenshot 2025-04-17 at 3 47 42 PM](https://github.com/user-attachments/assets/c0de63dd-460d-419d-a807-a158a8958c66)
 
-### Task:2  Creating a Substrate, 
+### Task 2:  Creating a Substrate, 
 Construct a second rectangle  (Area: 3 x 3mm, Thickness: 0.2mm) for the substrate and rename the previous one to “Die.” and the present one to "Substrate" .Subsequently, modify the material properties to Silicon for "Die". 
 
 ![Screenshot 2025-04-17 at 5 21 12 PM](https://github.com/user-attachments/assets/e665a446-2d6a-4fbb-8b3d-7df2910ceb1b)
