@@ -269,6 +269,8 @@ The subsequent procedure involves attaching the solder balls to the substrate. T
 
 I extend my sincere gratitude to Mr. Kunal Ghosh for providing this opportunity and to the team at IIT Gandhinagar for sharing their expertise. 
 
+## Certificate of Completion
+![2_VSD Packaging Certificate 2025VSD-Packaging nasscom course-1](https://github.com/user-attachments/assets/2005e791-6ea8-44e9-897d-f102a8c9daf6)
 
 
 
